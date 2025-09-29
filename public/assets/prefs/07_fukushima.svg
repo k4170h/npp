@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="90.004013"
+   height="70.953201"
+   viewBox="0 0 90.004023 70.953194"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="07_fukushima.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="5.9223905"
+     inkscape:cx="63.656728"
+     inkscape:cy="36.556185"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient1"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop1" />
+      <stop
+         style="stop-color:#4d4d4d;stop-opacity:1;"
+         offset="1"
+         id="stop2" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1"
+       id="radialGradient2"
+       cx="181.9729"
+       cy="72.639472"
+       fx="181.9729"
+       fy="72.639472"
+       r="45.002007"
+       gradientTransform="matrix(1,0,0,0.78833374,0,15.375325)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-136.9709,-37.162872)">
+    <path
+       id="path11"
+       style="display:inline;fill:url(#radialGradient2);fill-opacity:1;stroke:#ffffff;stroke-width:6;stroke-dasharray:none;stroke-opacity:1;stroke-linejoin:bevel"
+       d="m 189.91715,37.426679 -0.41185,9.05117 1.13515,1.250695 -1.47673,3.068964 -2.50136,1.135174 -2.15984,-0.909148 -1.13515,1.135174 -4.31966,-1.933815 -2.38587,0.572615 -2.15982,-3.410512 -5.79638,0.793601 -2.50136,-1.361175 h -2.02923 l -4.1087,4.997739 -1.25069,4.093606 -3.52102,1.361201 1.3612,8.639292 -1.92877,0.683121 -5.79638,-0.11547 -0.56758,1.707763 -8.41329,1.361201 -1.02464,2.616885 1.36621,2.154827 -3.18448,7.04705 0.57259,2.159816 2.61189,1.250695 0.90913,2.275363 -0.11059,12.321041 6.36396,2.225138 3.63656,-2.953444 h 2.27032 l 7.73017,-5.454807 6.02238,-1.707789 1.02467,-2.72739 6.13793,-1.476722 8.29273,2.385843 6.13793,6.253449 v 3.86259 l 6.25345,3.86257 v 1.93378 l 3.97808,2.38587 5.45484,-3.86259 -0.68313,-4.204109 6.13793,3.179469 4.92743,0.92921 -0.25614,-0.79862 0.40684,-1.58723 2.62697,-0.58768 1.13515,-1.27078 1.94886,0.18079 2.9886,-3.80231 -0.0453,-5.344301 1.40639,-4.535656 -0.0453,-6.795897 1.90367,-5.932012 -0.95436,-13.732466 -1.26574,-4.259379 0.49724,-3.757099 -1.31596,-3.536087 -2.44615,-3.078994 -0.11058,-2.782667 -2.0845,-0.683108 -1.3612,2.275353 -1.13514,4.430147 -2.55666,-0.170761 -0.34155,1.024642 -2.04931,-0.396787 -2.21508,-2.044296 -0.17076,-2.958471 -0.90912,-1.476719 c 0,0 -2.89996,-1.019638 -3.92285,-1.019638 -1.02287,0 -3.52102,0.678086 -3.52102,0.678086 l -2.15984,-0.964388 -0.11547,-1.98905 -2.55663,-0.683108 -0.96439,0.969412 -3.1242,-0.170786 z" />
+    <path
+       style="display:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1"
+       d="M 83.23622,4.879806 54.0185,1.1528475 52.19282,13.634636 27.20415,9.65655 17.75617,29.431509 2.97892,32.385003 6.1452388,65.081143 41.451385,51.308587 61.96721,70.799768 86.65456,58.975918 89.842061,31.590161 Z"
+       id="path3"
+       sodipodi:nodetypes="cccccccccccc"
+       transform="translate(136.9709,37.162872)" />
+  </g>
+</svg>

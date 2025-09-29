@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="15"
+   height="60"
+   viewBox="0 0 15.000001 60"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="oneway.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#b3b3b3"
+     bordercolor="#000000"
+     borderopacity="0.52156863"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="11.313708"
+     inkscape:cx="-20.064155"
+     inkscape:cy="48.746174"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-66.727821,-36.171543)">
+    <path
+       id="rect2-5-2"
+       style="fill:#ffffff;fill-opacity:1;stroke:#7f7f7f;stroke-width:0.893161;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="M 67.174401,55.38381 V 37.249684 l 9.067063,9.067063 z"
+       sodipodi:nodetypes="cccc" />
+    <path
+       id="rect2-5-2-2"
+       style="fill:#ffffff;fill-opacity:1;stroke:#7f7f7f;stroke-width:0.893161;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="M 67.174401,75.674217 V 57.540091 l 9.067063,9.067063 z"
+       sodipodi:nodetypes="cccc" />
+    <path
+       id="rect2-5-2-5"
+       style="fill:#ffffff;fill-opacity:1;stroke:#7f7f7f;stroke-width:0.893161;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="M 67.174401,95.093402 V 76.959276 l 9.067063,9.067063 z"
+       sodipodi:nodetypes="cccc" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#7f7f7f;stroke-width:0.890515;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       id="rect2"
+       width="3.8476775"
+       height="59.109486"
+       x="77.318283"
+       y="36.616798" />
+  </g>
+</svg>

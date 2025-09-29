@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="99.62645"
+   height="94.828812"
+   viewBox="0 0 99.62645 94.828812"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="02_aomori.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="2.0938813"
+     inkscape:cx="-58.742585"
+     inkscape:cy="38.922932"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient1"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop1" />
+      <stop
+         style="stop-color:#4e4e4e;stop-opacity:1;"
+         offset="1"
+         id="stop2" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1"
+       id="radialGradient2"
+       cx="177.79335"
+       cy="68.99211"
+       fx="177.79335"
+       fy="68.99211"
+       r="52.121404"
+       gradientTransform="matrix(1,0,0,0.95678851,0,2.9812518)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="base"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-128.26018,-21.433583)"
+     style="display:inline">
+    <path
+       id="path1"
+       style="display:inline;fill:url(#radialGradient2);fill-opacity:1;stroke:#ffffff;stroke-width:6;stroke-linecap:butt;stroke-linejoin:bevel;stroke-opacity:1;stroke-dasharray:none"
+       d="m 184.62751,21.932137 -5.83189,15.736286 -0.87431,12.531908 10.6355,-4.809413 3.64424,1.456524 8.74485,-6.557256 4.80947,9.476041 -2.91307,2.76456 -0.29181,9.915859 -6.26606,7.865281 -4.5181,-5.243517 -2.33046,-0.291362 -4.95791,-4.957935 -3.20432,4.375321 1.01689,5.10072 -8.44785,2.621764 -4.52385,-24.338406 -3.34713,-3.352878 -4.66666,3.352878 -6.40876,-5.683335 -2.0391,8.305098 -3.93549,0.873866 3.93549,3.061582 0.87431,2.478957 4.22686,1.308024 -0.14812,1.605046 -3.93549,-0.142807 -4.80947,16.758718 -6.5572,3.055867 -4.66666,-1.456535 -3.49568,5.980356 -5.53478,4.221095 -0.14811,1.896343 3.64424,2.621763 0.72509,9.71594 4.261,0.34276 0.73173,-3.655625 3.01586,0.365529 0.63998,1.462246 5.75761,0.91388 6.7629,-0.91388 0.73062,-2.284759 4.11256,-0.365529 0.54824,2.010588 2.83316,-0.18282 2.10199,3.10728 h 1.2794 l 1.09648,-1.9192 4.56951,1.18807 6.30596,-3.29005 2.55892,-0.913879 4.56951,1.9192 1.37081,2.101979 2.28481,-1.27947 0.63998,4.47813 -1.82787,1.55364 -0.82235,5.39204 1.64504,3.65561 4.11257,-0.18282 3.65562,-3.10727 v -1.46224 l 11.241,-5.7576 2.10198,2.55893 2.74164,-2.0106 3.3815,-0.73105 2.10199,1.55363 3.19869,-0.63976 0.54824,-3.19867 6.04886,-2.5932 -0.14811,-0.25135 -6.4144,-6.997087 -3.20443,0.291362 -5.10072,-11.509487 -1.74784,-25.360827 1.89065,-18.35805 2.3362,-8.744916 -3.50143,4.809413 -10.92686,0.142807 -4.22686,-8.013791 z" />
+    <path
+       style="display:none;fill:none;stroke:#ff0909;stroke-width:0.1"
+       d="M 56.227294,0.67540293 48.038033,27.522669 25.665311,19.924386 20.430939,54.538787 0.84425366,67.877994 17.560476,81.217202 58.253503,80.035247 61.292816,94.049858 98.777678,78.684441 83.243411,49.979817 86.620426,7.598283 Z"
+       id="path2"
+       sodipodi:nodetypes="cccccccccccc"
+       transform="translate(128.26018,21.433583)" />
+  </g>
+</svg>

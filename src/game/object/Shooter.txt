@@ -1,0 +1,112 @@
+import { KeyStates } from "../types";
+import { polarToVector, vectorToPolar } from "../utils";
+
+export class Shooter extends Phaser.GameObjects.Container {
+    /**
+     * キー情報
+     */
+    private keys: KeyStates;
+
+    /**
+     * プレイヤー自体のSprite
+     */
+    private sprite: Phaser.Types.Physics.Arcade.SpriteWithDynamicBody; //Phaser.GameObjects.Sprite;
+
+    /**
+     * 装備
+     * @param param0
+     */
+    private weapon: Phaser.GameObjects.Image;
+
+    constructor({
+        scene,
+        x,
+        y,
+    }: {
+        scene: Phaser.Scene;
+        x: number;
+        y: number;
+    }) {
+        super(scene, x, y);
+
+        // キャラクタ設定(当該コンテナにaddせず、これの位置をコンテナに追従させる)
+        this.sprite = scene.physics.add.sprite(0, 0, "shooter");
+        this.sprite.setSize(40, 40);
+        this.sprite.setScale(0.5);
+        this.sprite.x = 600;
+        this.sprite.y = 300;
+
+        // キー入力を拾う準備
+        this.keys = scene.input.keyboard!.addKeys({
+            up: Phaser.Input.Keyboard.KeyCodes.W,
+            down: Phaser.Input.Keyboard.KeyCodes.S,
+            left: Phaser.Input.Keyboard.KeyCodes.A,
+            right: Phaser.Input.Keyboard.KeyCodes.D,
+            action: Phaser.Input.Keyboard.KeyCodes.E,
+            space: Phaser.Input.Keyboard.KeyCodes.SPACE,
+            1: Phaser.Input.Keyboard.KeyCodes.ONE,
+            2: Phaser.Input.Keyboard.KeyCodes.TWO,
+            3: Phaser.Input.Keyboard.KeyCodes.THREE,
+            4: Phaser.Input.Keyboard.KeyCodes.FOUR,
+        }) as KeyStates;
+
+        // 装備品
+        this.weapon = scene.add.image(0, 0, "camera");
+        this.add(this.weapon);
+
+        this.sprite.anims.play("idle");
+
+        this.setScale(0.5);
+
+        // 表示オブジェクトとして追加
+        scene.add.existing(this);
+    }
+
+    update() {
+        // 移動関連
+        const speed = 160;
+        this.sprite.setVelocity(0);
+        if (this.keys.left.isDown) {
+            this.sprite.setVelocityX(-speed);
+        } else if (this.keys.right.isDown) {
+            this.sprite.setVelocityX(speed);
+        }
+        if (this.keys.up.isDown) {
+            this.sprite.setVelocityY(-speed);
+        } else if (this.keys.down.isDown) {
+            this.sprite.setVelocityY(speed);
+        }
+
+        if (
+            this.sprite.body.velocity.x !== 0 ||
+            this.sprite.body.velocity.y !== 0
+        ) {
+            this.sprite.anims.play("walk", true);
+        } else {
+            this.sprite.anims.play("idle", true);
+        }
+
+        // 左右の向き
+        if (this.scene.input.activePointer.x < this.sprite.x) {
+            this.sprite.setFlipX(true);
+        } else {
+            this.sprite.setFlipX(false);
+        }
+
+        // マウスとの相対位置を見て、装備の位置を調整
+        const polar = vectorToPolar(
+            this.scene.input.activePointer.x - this.sprite.x,
+            this.scene.input.activePointer.y - this.sprite.y
+        );
+        const weaponPos = polarToVector(polar.angle, 30);
+        this.weapon.setAngle(polar.angle - 90);
+        this.weapon.x = weaponPos.x;
+        this.weapon.y = weaponPos.y;
+
+        // コンテナ位置をSpriteに同期
+        this.setPosition(this.sprite.x, this.sprite.y);
+
+        console.log(this.x, this.sprite.x);
+    }
+}
+
