@@ -1,11 +1,17 @@
 import { Game as MainGame } from "./scenes/Game";
-import { AUTO, Game } from "phaser";
+import { Game } from "phaser";
 
 const config: Phaser.Types.Core.GameConfig = {
-    type: AUTO,
     width: 1280,
     height: 720,
     parent: "game-container",
+    scale: {
+        mode: Phaser.Scale.FIT,
+        parent: "game-container",
+        width: 1280,
+        height: 720,
+    },
+
     backgroundColor: "#028af8",
     scene: [MainGame],
     physics: {
